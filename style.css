@@ -1,0 +1,94 @@
+/* -- Elements -- */
+
+nav {
+	background-color: #ffdb0f;
+}
+
+body {
+	background-color: beige;
+}
+
+section {
+	background-color: beige;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
+	color: hotpink;
+	border-top: 3px solid hotpink;
+}
+
+h1 {
+	font-family: 'Bebas Neue', Georgia;
+	font-size: 55px;
+	text-align: center;
+	color: hotpink;
+}
+
+
+li {
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+li:hover {
+	color: hotpink;
+}
+
+h3, h4 {
+	font-family: monospace;
+	color: #ffdb0f;
+}
+
+p {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 20px;
+}
+
+
+/* -- Classes -- */
+
+.heading {
+	margin-top: 25px;
+}
+
+.second-section, .third-section {
+	padding: 15px;
+} 
+
+.quartet {
+	margin-top: 20px;
+}
+
+.lorde, .ginsburg, .mackinnon, .dworkin {
+	margin-bottom: 30px;
+}
+
+.dworkin {
+	margin-top: 6px;
+}
+
+.button {
+	border-radius: 15px;
+	font-family: monospace;
+	background-color: #ffdb0f;
+	border-color: hotpink;
+}
+
+.button:hover {
+	color: hotpink;
+}
+
+
+/* -- IDs -- */
+
+#logo {
+	height: 80px;
+	width: 90px;
+	transform: rotate(-90deg);
+}
+
